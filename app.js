@@ -273,7 +273,6 @@ backbutton.onclick = function(){
     defaultImage = "pictures/female/otherfemale01.png"
     image.src = defaultImage;
     modal.style.display = "block";
-    create.style.display = "none";
     deleteButton.style.display = "none";
     setAllDefaults();
     var saveSheet = document.getElementById("saveButton");
