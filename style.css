@@ -1,0 +1,106 @@
+.container{
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 100px;
+  background-color: rgba(0,0,0,.5);
+  color: white;
+  height: auto;
+}
+body{
+  background-image: url("pictures/dragon01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Georgia", Times, serif;
+}
+#headerImage{
+  width: 800px;
+}
+.form{
+  width: 800px;
+  margin-top: 10px;
+  text-align: center;
+}
+.form label input{
+  display: block;
+  float: right;
+}
+.block {
+  display:block;
+  margin: 5px;
+}
+.collection{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 20px;
+}
+.collection img{
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+.collection label{
+  color: white;
+}
+#characterName{
+  padding-right: 10px;
+}
+#characterLvl{
+  padding-left: 10px;
+}
+#myModal{
+  display: none;
+  width: 800px;
+  margin: 0 auto;
+}
+.dndButtons{
+  font-size: 20px;
+  margin-top: 10px;
+}
+#saveButton{
+  font-size: 20px;
+  margin: 10px;
+}
+#deleteButton{
+  font-size: 20px;
+  margin: 10px;
+}
+#backbutton01{
+  font-size: 20px;
+  margin: 10px;
+}
+#portrait{
+  padding: 10px;
+}
+#button01{
+  display: none;
+}
+#newuser01{
+  display: none;
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 10px;
+  color: white;
+  height: auto;
+}
+#collectionSheet{
+  display: none;
+}
+#back01{
+  font-size: 20px;
+  margin: 10px;
+}
+#Back{
+  display: none;
+}
+.tipytop{
+  display: none;
+}
+.warn{
+  padding: 10px;
+}
+.block01{
+  padding: 2px;
+}

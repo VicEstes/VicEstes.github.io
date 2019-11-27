@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Character Sheet</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="container">
+          <div class="welcome">
+            <h1>D&D Character Sheets</h1>
+            <div class="tipytop">
+            login failed
+            </div>
+            <img src="pictures/dndicon.png" id="headerImage"/>
+          </div>
+        <nav class="Nav01" id="button01">
+          <button class="dndButtons" id="Create">Create</button>
+        </nav>
+        <div class="loginsystem">
+        <nav class="Nav02" id="buttonlogin">
+            <div class="block01"><label id="playerEmail">Email</label> <input type="text" class="userinfo" id="Email"/></div>
+            <div class="block01"><label id="playerPass">Password</label> <input type="text" class="userinfo" id="Pass"/></div>
+          <button class="dndButtons" id="Login">Login</button>
+        </nav>
+        <nav class="Nav03" id="buttonuser">
+            <button class="dndButtons" id="User">Create User</button>
+          </nav>
+          <div class="warn" id="warning">
+          </div>
+        <div class="createnew" id="newuser01">
+            <div class="block01"><label id="playerFname">First Name</label> <input type="text" class="userinfo" id="newFname"/></div>
+            <div class="block01"><label id="playerLname">Last Name</label> <input type="text" class="userinfo" id="newLname"/></div>
+            <div class="block01"><label id="playerEmail">Email</label> <input type="text" class="userinfo" id="newEmail"/></div>
+            <div class="block01"><label id="playerPass">Password</label> <input type="text" class="userinfo" id="newPass"/></div>
+            <button class="dndButtons" id="User01">Create</button>
+        </div>
+        <nav class="Nav04" id="Back">
+          <button class="backbutton" id="back01">Back</button>
+        </nav>
+
+      </div>
+        <div class="collection" id="collectionSheet">
+            <div class="characterFrame">
+              <div class="characterInfo">
+                <label class="characterName"></label>
+                <label class="characterLvl"></label>
+              </div>
+            </div>
+          </div>
+        <div id="myModal" class="modal">
+            <div class="form">
+              <div class="block"><label id="charLabel">CHARACTER NAME</label> <input type="text" class="playerInput" id="CHAR"/></div>
+              <div class="block"><label id="playerLabel">PLAYER </label><input type="text" class="playerInput" id="PLAYER"/></div>
+              <div class="block"><label id="classLabel">CLASS</label> <input type="text" class="playerInput" id="CLASSS"/></div>
+              <div class="block"><label id="levelLabel">LEVEL</label> <input type="text" class="playerInput" id="LVL"/></div>
+              <div class="block"><label id="raceLabel">RACE</label> <input type="text" class="playerInput" id="RACE"/></div>
+              <div class="block"><label id="ageLabel">AGE</label> <input type="text" class="playerInput" id="AGE"/></div>
+              <div class="block"><label id="genderLabel">GENDER </label> <input type="text" class="playerInput" id="GENDER"/></div>
+            </div>
+          <div class="apps01">
+              <div class="stats">
+                <p id="attributes">ATTRIBUTES</p>
+                <label class="attributesBox">STR </label>
+                <label class="attributesBox">DEX </label>
+                <label class="attributesBox">CON </label>
+                <label class="attributesBox">INT </label>
+                <label class="attributesBox">WIS </label>
+                <label class="attributesBox">CHA </label>
+              </div>
+              <div class="statsFilled">
+                <label class="attributesBox" id="STR">??? </label>
+                <label class="attributesBox" id="DEX">??? </label>
+                <label class="attributesBox" id="CON">??? </label>
+                <label class="attributesBox" id="INT">??? </label>
+                <label class="attributesBox" id="WIS">??? </label>
+                <label class="attributesBox" id="CHA">??? </label>
+              </div>
+                        <div class="portraitDiv">
+                          <img src="" id="portrait">
+                        </div>
+          </div>
+          <div id="bottom">
+            <button class="save" id="saveButton">Save</button>
+            <button class="delete" id="deleteButton">Delete</button>
+            <button class="backed" id="backbutton01">Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
