@@ -261,7 +261,6 @@ backbutton.onclick = function(){
   deleteButton.onclick = function() {
     confirm("Are you sure you want to delete this Character sheet?");
     modal.style.display = "none";
-    create.style.display = "inline-block";
     deleteCharacterSheet(deleteValue)
   }
   var create = document.getElementById("Create");
@@ -272,7 +271,6 @@ backbutton.onclick = function(){
     defaultImage = "pictures/female/otherfemale01.png"
     image.src = defaultImage;
     modal.style.display = "block";
-    deleteButton.style.display = "none";
     setAllDefaults();
     var saveSheet = document.getElementById("saveButton");
     saveSheet.onclick = function() {
