@@ -199,8 +199,6 @@ var encodeLogin01 = function(log){
       collection.appendChild(characterFrame);
       
       characterFrame.onclick = function() {
-        var create = document.getElementById("Create");
-        create.style.display = "inline-block";
         getCharacterSheet(fetchData);
         saveButton = document.getElementById("saveButton");
         saveButton.onclick = function() {
