@@ -263,7 +263,6 @@ backbutton.onclick = function(){
   deleteButton.onclick = function() {
     confirm("Are you sure you want to delete this Character sheet?");
     modal.style.display = "none";
-    create.style.display = "flex";
     deleteCharacterSheet(deleteValue)
   }
 
