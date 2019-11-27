@@ -277,7 +277,6 @@ backbutton.onclick = function(){
     setAllDefaults();
     var saveSheet = document.getElementById("saveButton");
     saveSheet.onclick = function() {
-      var create = document.getElementById("Create");
       console.log("save button was clicked");
       displayAttributes();
       sendData();
