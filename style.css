@@ -104,3 +104,6 @@ body{
 .block01{
   padding: 2px;
 }
+.dndButtons{
+  display: inline-block;
+}
