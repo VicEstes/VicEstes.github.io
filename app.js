@@ -280,6 +280,7 @@ backbutton.onclick = function(){
       console.log("save button was clicked");
       displayAttributes();
       sendData();
+      create.style.display = "flex";
       modal.style.display = "none";
     }
   };
