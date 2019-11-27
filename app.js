@@ -205,6 +205,8 @@ var encodeLogin01 = function(log){
           var saveId = saveValue;
           console.log("this is the 'updated' button and id = ", saveId);
           modal.style.display = "none";
+          var deleteButton = document.getElementById("deleteButton");
+          deleteButton.style.display = "flex";
           updateData(saveId);
         }
       }
@@ -232,7 +234,6 @@ backfrommake.onclick = function(){
 //login button
 login.onclick = function(){
   sendLogin();
-  
 }
 
 newuser.onclick = function(){
@@ -271,6 +272,7 @@ backbutton.onclick = function(){
     defaultImage = "pictures/female/otherfemale01.png"
     image.src = defaultImage;
     modal.style.display = "block";
+    deleteButton.style.display = "flex";
     setAllDefaults();
     var saveSheet = document.getElementById("saveButton");
     saveSheet.onclick = function() {
