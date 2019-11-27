@@ -254,7 +254,7 @@ backbutton.onclick = function(){
   newuser.style.display = "inline-block";
   login.style.display = "inline-block";
 }
-  var create = document.getElementById("Create");
+
   var saveValue;
   var deleteButton = document.getElementById("deleteButton");
   var deleteValue;
@@ -264,7 +264,7 @@ backbutton.onclick = function(){
     create.style.display = "inline-block";
     deleteCharacterSheet(deleteValue)
   }
-
+  var create = document.getElementById("Create");
   var saveButton;
   var modal = document.getElementById("myModal");
   modal.style.display = "none";
@@ -279,7 +279,6 @@ backbutton.onclick = function(){
       console.log("save button was clicked");
       displayAttributes();
       sendData();
-      create.style.display = "inline-block";
       modal.style.display = "none";
     }
   };
