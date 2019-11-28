@@ -198,6 +198,8 @@ var encodeLogin01 = function(log){
       characterFrame.appendChild(characterInfo)
       collection.appendChild(characterFrame);
       
+      var deleteButton = document.getElementById("deleteButton");
+      
       characterFrame.onclick = function() {
         getCharacterSheet(fetchData);
         saveButton = document.getElementById("saveButton");
@@ -205,7 +207,6 @@ var encodeLogin01 = function(log){
           var saveId = saveValue;
           console.log("this is the 'updated' button and id = ", saveId);
           modal.style.display = "none";
-          var deleteButton = document.getElementById("deleteButton");
           deleteButton.style.display = "inline-block";
           updateData(saveId);
         }
@@ -272,7 +273,7 @@ backbutton.onclick = function(){
     defaultImage = "pictures/female/otherfemale01.png"
     image.src = defaultImage;
     modal.style.display = "block";
-    deleteButton.style.display = "flex";
+    deleteButton.style.display = "inline-block";
     setAllDefaults();
     var saveSheet = document.getElementById("saveButton");
     saveSheet.onclick = function() {
