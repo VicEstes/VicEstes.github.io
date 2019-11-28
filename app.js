@@ -206,7 +206,7 @@ var encodeLogin01 = function(log){
           console.log("this is the 'updated' button and id = ", saveId);
           modal.style.display = "none";
           var deleteButton = document.getElementById("deleteButton");
-          deleteButton.style.display = "flex";
+          deleteButton.style.display = "inline-block";
           updateData(saveId);
         }
       }
